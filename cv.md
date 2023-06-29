@@ -6,7 +6,7 @@
 :small_blue_diamond: Discord: Alisa (@1Alisa1)
 
 # About me
- Perseverance and discipline are my strengths. I always achieve certain results, because I know that success is 1% of talent and 99% of work. The times of distance learning at the university taught me to search for information and learn on my own, which helps a lot in mastering a new profession. Every day I am improving my skills in frontend development and English, as well as learning backend development.
+ Perseverance and discipline are my strengths. I always achieve certain results, because I know that success is 1% of talent and 99% of work. The times of distance education at the university taught me to search for information and learn on my own, that helps to learn a new profession. Every day I improve my programming and English skills.
 
 # Skills
 *	HTML
@@ -22,13 +22,13 @@
 # Pet-projects
 ## Job-aggregator
 
-### Links
-:pushpin: [Go to the website](https://1alisa1.github.io/job-aggregator/vacancies) </br>
+
+:pushpin: [Go to the website](https://1alisa1.github.io/job-aggregator) </br>
 :pushpin: https://github.com/1Alisa1/job-aggregator
 
 ### Description
 The project is an aggregator of vacancies. 
-Functionality: brief and detailed description of vacancies, pagination of vacancies, filtering by salary and categories, search by keywords, saving vacancies in favorites
+Functionality: brief and detailed description of vacancies, pagination of vacancies, filtering by salary and categories, search by keywords, saving vacancies in favorites.
 
 ### Technologies
 * React
@@ -37,7 +37,7 @@ Functionality: brief and detailed description of vacancies, pagination of vacanc
 * Sass
 * React-paginate
 ##	Online-store
-### Links
+
 :pushpin: https://github.com/1Alisa1/online-store
 ### Description
 This project is a web store. The design bases on Wildberries. Project supports basic web store functionality: showcase with product descriptions, product categories, product search, shopping cart, authorization and registration.
