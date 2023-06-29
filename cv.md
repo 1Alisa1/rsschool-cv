@@ -70,7 +70,13 @@ const uniqueInOrder = (iterable) => {
   return result;
 }
 ```
+# Education
+2018-2022 </br>
+Belarusian State University </br>
+Analytical biochemistry
 
+# English level
+A2
 
 
 
