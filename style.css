@@ -88,6 +88,7 @@ body {
 .section {
   width: 50%;
   margin-bottom: 30px;
+  padding: 10px;
 }
 
 .year {
@@ -132,6 +133,26 @@ h1 {
   margin: 0 auto;
   border: 2px solid #a2d2ff78;
 }
+
+.skills {
+  margin-left: 8em;
+}
+
+.skills-list {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.skills-item {
+  line-height: 1.4em;
+}
+
+.text {
+  width: 80%;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
 
 
 
