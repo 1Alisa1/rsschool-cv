@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  scroll-behavior: smooth; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  margin-block-end: 0.8em;
+  font-size: 1.1em;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  height: 4em;
+  margin-bottom: 1em;
+  background-color: #a2d2ff;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  height: 6em;
+  background-color: #a2d2ff;
+}
+
+.footer-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15em;
+}
+
+.footer-link {
+  text-decoration: underline;
+  font-size: 1.3em;
+  color: #000000;
+}
+
+.footer-link:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  margin-bottom: 1.5em;
+  padding: 0.5em 2em;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  line-height: 2.5em;
+}
+
+.border {
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid #a2d2ff78;
+}
+
+.skills-list {
+  margin: 0;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  background-color: #a2d2ff78;
+  text-align: center;
+}
+
+.title h2 {
+  margin: 0.4em;
+}
+
+.projects {
+  padding: 0.5em 0;
+}
+
+.projects-wrapper {
+  display: flex;
+}
+
+.project {
+  width: 50%;
+  padding: 0.5em 2em;
+}
+
+.project-link {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5em;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #005fb8;
+}
+
+.project-link a:hover {
+  color: rgba(0, 95, 184, 0.7);
+}
+
+.code-example {
+  padding: 0.5em;
+  background-color: #a2d2ff78;
+} 
