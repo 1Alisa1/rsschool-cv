@@ -92,6 +92,91 @@
           as a professional.</p>
       </section>
       <div class="border"></div>
+      <section class="section projects" id="projects">
+        <div class="title">
+          <h2>Projects</h2>
+        </div>
+        <div class="projects-wrapper">
+          <div class="project">
+            <h3>Job Aggregator</h3>
+            <div class="project-links">
+              <div class="project-link">
+                <img src="./img/pushpin.png" alt="pushpin" width="24px" height="24px">
+                <a href="https://1alisa1.github.io/job-aggregator">Visit the website</a>
+              </div>
+              <div class="project-link">
+                <img src="./img/pushpin.png" alt="pushpin" width="24px" height="24px">
+                <a href="https://github.com/1Alisa1/job-aggregator">Visit the github</a>
+              </div>
+            </div>
+            <div class="project-description-container">
+              <h4>Description</h4>
+              <div class="project-description">The project is an aggregator of vacancies. Functionality: brief and
+                detailed description of vacancies, pagination of vacancies, filtering by salary and categories, search
+                by keywords, saving vacancies in favorites.</div>
+            </div>
+            <div class="project-technologies-container">
+              <h4>Technologies</h4>
+              <ul class="technologies-list">
+                <li class="technologies-item">React</li>
+                <li class="technologies-item">React Router</li>
+                <li class="technologies-item">TypeScript</li>
+                <li class="technologies-item">Sass</li>
+                <li class="technologies-item">React-paginate</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <h3>Online Store</h3>
+            <div class="project-link">
+              <img src="./img/pushpin.png" alt="pushpin">
+              <a href="https://github.com/1Alisa1/online-store">Visit the github</a>
+            </div>
+            <div class="project-description-container">
+              <h4>Description</h4>
+              <div class="project-description">This project is a web store. The design bases on Wildberries. Project
+                supports basic web store functionality: showcase with product descriptions, product categories, product
+                search, shopping cart, authorization and registration.</div>
+            </div>
+            <div class="project-technologies-container">
+              <h4>Technologies</h4>
+              <ul class="technologies-list">
+                <li class="technologies-item">React</li>
+                <li class="technologies-item">React Router</li>
+                <li class="technologies-item">React Hook Form</li>
+                <li class="technologies-item">TypeScript</li>
+                <li class="technologies-item">Redux Toolkit</li>
+                <li class="technologies-item">Sass</li>
+                <li class="technologies-item">Firebase</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border"></div>
+      <section class="section code" id="code">
+        <h2>Code</h2>
+        <div class="code-description">
+          <i>Implement the function unique_in_order which takes as argument a sequence and returns a list of items
+            without any elements with the same value next to each other and preserving the original order of
+            elements</i>
+        </div>
+        <pre class="code-example">
+  const uniqueInOrder = (iterable) => { 
+    let result = []; 
+          
+    if (typeof iterable === 'string') { 
+      iterable.split(''); 
+    } 
+          
+    for (let i = 0; i < iterable.length; i++) { 
+      if (iterable[i] !== iterable[i + 1]) { 
+        result.push(iterable[i]); 
+      } 
+    } 
+    return result; 
+  } </pre>
+      </section>
     </div>
   </main>
   <footer class="footer">

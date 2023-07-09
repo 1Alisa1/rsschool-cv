@@ -14,6 +14,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 .container {
@@ -39,7 +40,6 @@ body {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.2em;
   color: #000000;
 }
 
@@ -91,10 +91,6 @@ body {
   padding: 10px;
 }
 
-.year {
-  font-size: 1.2em;
-}
-
 .profile {
   display: flex;
   align-items: center;
@@ -124,7 +120,6 @@ h1 {
   display: flex;
   align-items: center;
   gap: 1em;
-  font-size: 1.2em;
   line-height: 2.5em;
 }
 
@@ -140,7 +135,6 @@ h1 {
 
 .skills-list {
   margin: 0;
-  font-size: 1.2em;
 }
 
 .skills-item {
@@ -149,9 +143,63 @@ h1 {
 
 .text {
   width: 80%;
-  font-size: 1.2em;
   line-height: 1.3em;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  background-color: #a2d2ff78;
+  text-align: center;
+}
+
+.title h2 {
+  margin: 0.2em;
+}
+
+.projects-wrapper {
+  display: flex;
+}
+
+.project {
+  width: 50%;
+  padding: 10px;
+}
+
+.project-link {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5em;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #005fb8;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+.project-link a:hover {
+  color: rgba(0, 95, 184, 0.7);
+}
+
+.code-example {
+  padding: 10px;
+  background-color: #a2d2ff78;
+} 
+
 
 
 
