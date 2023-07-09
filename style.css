@@ -10,11 +10,26 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  width: 1440px;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  margin-block-end: 0.8em;
+  font-size: 1.1em;
 }
 
 .container {
@@ -27,7 +42,7 @@ body {
   align-items: center;
   flex: 0 0 auto;
   height: 4em;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   background-color: #a2d2ff;
 }
 
@@ -35,6 +50,7 @@ body {
   display: flex;
   gap: 3em;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -75,11 +91,6 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.footer-content {
-  display: flex;
-  flex-direction: column;
-}
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -87,8 +98,8 @@ body {
 
 .section {
   width: 50%;
-  margin-bottom: 30px;
-  padding: 10px;
+  margin-bottom: 1.5em;
+  padding: 0.5em 2em;
 }
 
 .profile {
@@ -96,10 +107,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3em;
-}
-
-h1 {
-  font-size: 2em;
 }
 
 .photo {
@@ -124,26 +131,13 @@ h1 {
 }
 
 .border {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border: 2px solid #a2d2ff78;
 }
 
-.skills {
-  margin-left: 8em;
-}
-
 .skills-list {
   margin: 0;
-}
-
-.skills-item {
-  line-height: 1.4em;
-}
-
-.text {
-  width: 80%;
-  line-height: 1.3em;
 }
 
 .projects {
@@ -160,7 +154,11 @@ h1 {
 }
 
 .title h2 {
-  margin: 0.2em;
+  margin: 0.4em;
+}
+
+.projects {
+  padding: 0.5em 0;
 }
 
 .projects-wrapper {
@@ -169,7 +167,7 @@ h1 {
 
 .project {
   width: 50%;
-  padding: 10px;
+  padding: 0.5em 2em;
 }
 
 .project-link {
@@ -183,24 +181,11 @@ h1 {
   color: #005fb8;
 }
 
-h3 {
-  font-size: 1.3em;
-}
-
-h4 {
-  font-size: 1.1em;
-}
-
 .project-link a:hover {
   color: rgba(0, 95, 184, 0.7);
 }
 
 .code-example {
-  padding: 10px;
+  padding: 0.5em;
   background-color: #a2d2ff78;
 } 
-
-
-
-
-
