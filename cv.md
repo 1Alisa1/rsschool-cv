@@ -42,13 +42,13 @@ Functionality: brief and detailed description of vacancies, pagination of vacanc
 ### Description
 This project is a web store. The design bases on Wildberries. Project supports basic web store functionality: showcase with product descriptions, product categories, product search, shopping cart, authorization and registration.
 
-### Technologies 
-* React 
-* React Router 
-* React Hook Form 
-* Redux Toolkit 
-* TypeScript 
-* Sass 
+### Technologies
+* React
+* React Router
+* React Hook Form
+* Redux Toolkit
+* TypeScript
+* Sass
 * Firebase
 
 # Code example
@@ -77,6 +77,3 @@ Analytical biochemistry
 
 # English level
 A2
-
-
-
